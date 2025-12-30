@@ -82,7 +82,7 @@ To become a **full-stack developer capable of building reliable MVPs for real-wo
 
 ## 📫 Connect With Me
 - GitHub: https://github.com/Nithish-2809
-- LinkedIn: https://linkedin.com/in/mendu_nithish_reddy
+- LinkedIn: [https://linkedin.com/in/mendu_nithish_reddy](https://www.linkedin.com/in/mendu-nithish-reddy-054b8b336/)
 - Email: nithishreddy2809@gmail.com
 - Portfolio preview: https://portfolio-dun-psi-36.vercel.app/
 
