@@ -8,7 +8,7 @@ function Achieve() {
       id: 1,
       title: "LeetCode Milestone",
       description:
-        "Solved 250+ coding problems across various data structures and algorithms. Consistently improving problem-solving speed.",
+        "Solved 100+ coding problems across various data structures and algorithms. Consistently improving problem-solving speed.",
       date: "2025",
     },
     {
@@ -16,21 +16,14 @@ function Achieve() {
       title: "Hackathon Finalist",
       description:
         "Reached the finals in a national-level hackathon for building an innovative productivity app using the MERN stack.",
-      date: "2024",
+      date: "2026",
     },
     {
       id: 3,
       title: "Web Dev Bootcamp Graduate",
       description:
-        "Completed a full-stack web development bootcamp and built multiple responsive projects from scratch.",
-      date: "2024",
-    },
-    {
-      id: 4,
-      title: "DSA Consistency Award",
-      description:
-        "Maintained 100+ day streak solving DSA problems on LeetCode and GFG, demonstrating consistent practice and improvement.",
-      date: "2023",
+        "Completed a full-stack web development bootcamp in udemy and built multiple responsive projects from scratch.",
+      date: "2025",
     },
     {
       id: 5,
@@ -38,7 +31,7 @@ function Achieve() {
       description:
         "Contributed to an open-source project on GitHub by improving UI components and fixing minor bugs in React.",
       date: "2025",
-    },
+    }
   ];
 
   return (

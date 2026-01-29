@@ -16,12 +16,12 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Portfolio Website",
+      title: "Customer exit prediction and prevention system",
       description:
-        "A personal portfolio built with React and Framer Motion showcasing skills, projects, and achievements.",
-      img: "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=600&q=80",
-      skills: ["React", "CSS", "Framer Motion", "Vite", "GitHub", "Vercel"],
-      link: "https://example.com/portfolio",
+        "This is a full stack web application in which the admin can analyse the risk of users based on their issues. Its build under 1 day in a college hackathon.",
+      img: "/Churn.png",
+      skills: ["React", "Tailwind", "NodeJS", "Nodemailer", "GitHub", "Recharts","MongoDB","Express","Postman"],
+      link: "https://frontendhackathon-olive.vercel.app/",
     },
     {
       id: 3,

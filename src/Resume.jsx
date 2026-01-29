@@ -44,22 +44,6 @@ function Resume() {
     "Websockets"
   ];
 
-  const experiences = [
-    {
-      id: 1,
-      title: "Web Development Intern",
-      org: "TechNova Labs (Virtual)",
-      duration: "June 2024 – Aug 2024",
-      desc: "Built responsive web components and worked on frontend optimizations using React and Tailwind CSS.",
-    },
-    {
-      id: 2,
-      title: "Personal Projects",
-      org: "Self-Learning Journey",
-      duration: "2023 – Present",
-      desc: "Developed multiple MERN stack projects including E-commerce Store, Task Manager, and Notes App.",
-    },
-  ];
 
   return (
     <section className="resume">
@@ -131,31 +115,7 @@ function Resume() {
           </div>
         </motion.div>
 
-        {/* 🧠 Experience Section */}
-        <motion.div
-          className="section"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.6 }}
-        >
-          <h3 className="section-title">🧠 Experience</h3>
-          <div className="exp-grid">
-            {experiences.map((exp, index) => (
-              <motion.div
-                className="exp-card"
-                key={exp.id}
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
-              >
-                <h4>{exp.title}</h4>
-                <p className="exp-org">{exp.org}</p>
-                <p className="exp-duration">{exp.duration}</p>
-                <p className="exp-desc">{exp.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+        
 
         {/* 📜 Download Resume */}
         <motion.div
@@ -164,7 +124,7 @@ function Resume() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <a href="/Nithish_Reddy_Resume.pdf" download className="btn-primary">
+          <a href="/Nithish_resume.pdf" download className="btn-primary">
             📥 Download Resume
           </a>
         </motion.div>
